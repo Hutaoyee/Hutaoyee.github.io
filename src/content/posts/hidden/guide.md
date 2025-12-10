@@ -8,7 +8,7 @@ tags: [Astro, Gyoza]
 # 钉住：数字越大越靠前
 # sticky: 1
 # 隐藏文章
-# draft: true
+draft: true
 ---
 
 ## 前置条件

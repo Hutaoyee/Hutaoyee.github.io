@@ -83,7 +83,7 @@
     "perPage": 10
   },
   "footer": {
-    "startTime": "2025-12-10T00:00:00Z"
+    "startTime": "2025-12-09T23:59:59Z"
   },
   "waline": {
     "serverURL": "https://walinegithublog.vercel.app/"

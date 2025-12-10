@@ -1,6 +1,7 @@
 ---
 title: VFTS 352
 date: 2025-12-09T22:41:28.352Z
+lastMod: 2025-12-09T22:41:28.352Z
 summary: 这里万籁俱寂......太安静了......别留下我......
 category: 杂物
 tags: [Sundry]
