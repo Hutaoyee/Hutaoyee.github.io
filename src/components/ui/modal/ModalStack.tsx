@@ -9,7 +9,7 @@ export function ModalStack() {
   return (
     <AnimatePresence>
       {modalStack.map((modal, index) => (
-        <Modal key={modal.id} index={index} id={modal.id}>
+        <Modal key={modal.id} index={index} id={modal.id} lockScroll={modal.lockScroll}>
           {modal.content}
         </Modal>
       ))}

@@ -6,6 +6,7 @@ import { CurrentModalContext } from './context'
 type ModalProps = {
   id?: string
   content: React.ReactNode
+  lockScroll?: boolean
 }
 
 export function useModal() {

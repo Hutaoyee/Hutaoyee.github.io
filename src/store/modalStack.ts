@@ -4,5 +4,6 @@ export const modalStackAtom = atom<
   {
     id: string
     content: React.ReactNode
+    lockScroll?: boolean
   }[]
 >([])

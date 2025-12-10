@@ -41,7 +41,7 @@ export function ActionAside() {
       }}
     >
       <ShareButton />
-      <DonateButton />
+      {/* <DonateButton /> */}
     </div>
   )
 }

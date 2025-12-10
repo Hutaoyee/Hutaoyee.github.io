@@ -17,6 +17,7 @@ export function SearchButton() {
   const openModal = () => {
     present({
       content: <SearchPanel />,
+      lockScroll: false,
     })
   }
 

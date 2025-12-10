@@ -8,10 +8,12 @@ export function Modal({
   children,
   index,
   id,
+  lockScroll = true,
 }: {
   index: number
   children: React.ReactNode
   id: string
+  lockScroll?: boolean
 }) {
   const baseZIndex = 1000
   const overlayZIndex = baseZIndex + index
@@ -25,6 +27,7 @@ export function Modal({
   return (
     <Dialog.Root
       open
+      modal={lockScroll}
       onOpenChange={(isOpen) => {
         if (!isOpen) {
           close()
